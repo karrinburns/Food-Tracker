@@ -14,6 +14,10 @@
 		743CDA0A1FC1079400B3326C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743CDA081FC1079400B3326C /* LaunchScreen.storyboard */; };
 		743CDA151FC1079400B3326C /* Food_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CDA141FC1079400B3326C /* Food_TrackerTests.swift */; };
 		743CDA201FC1079400B3326C /* Food_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CDA1F1FC1079400B3326C /* Food_TrackerUITests.swift */; };
+		746BDC9E1FCDDD2200C11DFA /* MoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BDC9D1FCDDD2200C11DFA /* MoodTableViewCell.swift */; };
+		747CB2B71FC335B700507D82 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CDA2D1FC2649300B3326C /* RatingControl.swift */; };
+		747CB2B91FCDD1CE00507D82 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CB2B81FCDD1CD00507D82 /* Mood.swift */; };
+		74F9B7E61FCF03B20092C263 /* MoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B7E51FCF03B20092C263 /* MoodTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		743CDA1B1FC1079400B3326C /* Food TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743CDA1F1FC1079400B3326C /* Food_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TrackerUITests.swift; sourceTree = "<group>"; };
 		743CDA211FC1079400B3326C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743CDA2D1FC2649300B3326C /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		746BDC9D1FCDDD2200C11DFA /* MoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewCell.swift; sourceTree = "<group>"; };
+		747CB2B81FCDD1CD00507D82 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		74F9B7E51FCF03B20092C263 /* MoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				743CD9FF1FC1079400B3326C /* AppDelegate.swift */,
 				743CDA011FC1079400B3326C /* ViewController.swift */,
+				743CDA2D1FC2649300B3326C /* RatingControl.swift */,
+				747CB2B81FCDD1CD00507D82 /* Mood.swift */,
+				746BDC9D1FCDDD2200C11DFA /* MoodTableViewCell.swift */,
+				74F9B7E51FCF03B20092C263 /* MoodTableViewController.swift */,
 				743CDA031FC1079400B3326C /* Main.storyboard */,
 				743CDA061FC1079400B3326C /* Assets.xcassets */,
 				743CDA081FC1079400B3326C /* LaunchScreen.storyboard */,
@@ -207,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 743CD9F71FC1079400B3326C /* Build configuration list for PBXProject "Food Tracker" */;
+			buildConfigurationList = 743CD9F71FC1079400B3326C /* Build configuration list for PBXProject "Mood Monster" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747CB2B91FCDD1CE00507D82 /* Mood.swift in Sources */,
+				746BDC9E1FCDDD2200C11DFA /* MoodTableViewCell.swift in Sources */,
+				74F9B7E61FCF03B20092C263 /* MoodTableViewController.swift in Sources */,
 				743CDA021FC1079400B3326C /* ViewController.swift in Sources */,
+				747CB2B71FC335B700507D82 /* RatingControl.swift in Sources */,
 				743CDA001FC1079400B3326C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		743CD9F71FC1079400B3326C /* Build configuration list for PBXProject "Food Tracker" */ = {
+		743CD9F71FC1079400B3326C /* Build configuration list for PBXProject "Mood Monster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				743CDA221FC1079400B3326C /* Debug */,
